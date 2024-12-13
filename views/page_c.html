@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Page C</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>Page C</h1>
-    <p>Visit count: <?= $page_visits ?></p>
-    <a href="a.php">Go to A</a><br>
-    <a href="b.php">Go to B</a><br>
-    <a href="logout.php">Logout</a>
+    <div class="container">
+        <h1>Page C</h1>
+        <p>Visit count: <?= $page_visits ?></p>
+        <a href="a.php">Go to A</a><br>
+        <a href="b.php">Go to B</a><br>
+        <a class="logout-link" href="logout.php">Logout</a>
+    </div>
 </body>
 </html>
